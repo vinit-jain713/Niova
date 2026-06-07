@@ -6,10 +6,10 @@ import { LayoutDashboard, PenBox } from 'lucide-react'
 
 const Header = () => {
   return (
-    <div className='w-full bg-white/80 backdrop-blur-md z-50 border-b fixed top-0'>
+    <div className="fixed top-0 left-0 w-full z-50 bg-black/10 backdrop-blur-md">
       <nav className='container mx-auto px-4 py-4 flex items-center justify-between'>
         <Link href='/'>
-          <Image src={"/mainlogo.png"} alt='Niova Logo' height={60} width={150} className='h-12 w-auto object-contain' />
+          <Image src={"/mainlogo.png"}  alt='Niova Logo' height={60} width={150} className='h-12 w-auto object-contain' />
         </Link>
 
         <div className='flex items-center space-x-4'>
